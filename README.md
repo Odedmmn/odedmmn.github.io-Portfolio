@@ -1,10 +1,10 @@
 # Oded Maman's GitHub Portfolio
 
-Welcome to my GitHub portfolio! Here you'll find a collection of projects that showcase my passion for technology and automation using Full stack development.
+Welcome to my GitHub portfolio! Here you'll find a collection of projects that showcase my passion for technology and automation using Full-stack development.
 
 ## Portfolio Page
 
-[Visit my Portfolio]((https://odedmmn.github.io/odedmmn.github.io-Portfolio/))
+[Visit my Portfolio](https://odedmmn.github.io/odedmmn.github.io-Portfolio/)
 ## Projects
 
 ### 1. Eyes Exercise

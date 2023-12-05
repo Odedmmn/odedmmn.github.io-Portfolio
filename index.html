@@ -9,7 +9,7 @@
 <body>
     
     
-      <!--head><script src="/docs/5.3/assets/js/color-modes.js"></script-->
+      
     
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,9 +24,8 @@
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     
-    <!--link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
-        <-- Favicons -->
+        <!-- Favicons -->
     <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
@@ -90,7 +89,7 @@
           }
     
           .btn-bd-primary {
-            --bd-violet-bg: #5a23c8;
+            --bd-violet-bg: #2386c8;
             --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
     
             --bs-btn-font-weight: 600;
@@ -98,12 +97,12 @@
             --bs-btn-bg: var(--bd-violet-bg);
             --bs-btn-border-color: var(--bd-violet-bg);
             --bs-btn-hover-color: var(--bs-white);
-            --bs-btn-hover-bg: #6528e0;
-            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-hover-bg: #6eb4dd;
+            --bs-btn-hover-border-color: #2834e0;
             --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
             --bs-btn-active-color: var(--bs-btn-hover-color);
-            --bs-btn-active-bg: #5a23c8;
-            --bs-btn-active-border-color: #5a23c8;
+            --bs-btn-active-bg: rgb(119, 202, 235);
+            --bs-btn-active-border-color: #232ec8;
           }
     
           .bd-mode-toggle {
@@ -167,7 +166,7 @@
                 <img src="Eyes.png" img width="250" height="200">
                 <h1>Eyes Exercise</h1>
                 <p class="opacity-75">Eyes the will follow your mouse movement</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" onclick="scrolldiv('EyeId')">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -178,7 +177,7 @@
                 <img src="Pacman.png" img width="250" height="200">
                 <h1>PacMan Factory</h1>
                 <p>Generate Pacman objects on the screen and have them bounce between the page boundries</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" onclick="scrolldiv('Pacmanid')">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -189,7 +188,7 @@
                 <img src="Bus.png" img width="250" height="200">
                 <h1>Bus tracker</h1>
                 <p>Tracking of bus stations between MIT to Harvard on a map</p>
-                <p><a class="btn btn-lg btn-primary" onclick=document.getElementById(Pacmanid).scrollTo(); href="#">Learn more</a>
+                <p><a class="btn btn-lg btn-primary" onclick="scrolldiv('busid')" >Learn more</a>
                   
                 </p>
                 
@@ -206,36 +205,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
-        
-      <!--div class="row featurette">
-        <div class="col-md-7 order-md-2" >
-          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-        </div>
-        <div class="col-md-5 order-md-1" src="Oded Maman Bio.jpg"img width="250" height="200">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  preserveAspectRatio="xMidYMid slice" focusable="false" ></svg>
-        </div>
-      </div-->
-  
-              <!--div class = "bio" >
-                <img class ="col-md-2 order-md-2" src="Oded Maman Bio.jpg"  >
-                <h1 class="featurette-heading fw-normal lh-1">About me</span></h1>
-                <p class="featurette-heading fw-normal lh-1">Hello, I'm Oded Maman, a robotic engineer and the owner of Sydnah Automation. Our company specializes in developing automation solutions for fabrication shops. My work primarily involves coding, and I'm currently enrolled in the MITxpro Full Stack coding course as part of my ongoing learning and self-improvement journey. I'm passionate about technology and automation, and I'm excited about the potential this course has to enhance my skills and contribute to our work in robotic integration.</p>
-              </div-->
-            
-              <!--div class = "container" >
-                <div class="row">
-                  <div class="col-md-6"  >
-                    <img class ="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" preserveAspectRatio="xMidYMid slice" src="Oded Maman Bio.jpg" img width="150" height="300" >
-                  </div>
-                <div class="col-md-6 ">
-                <h1 class="featurette-heading fw-normal lh-1">About me</span> </h1>
-                <p class="featurette-heading fw-normal lh-1">Hello, I'm Oded Maman, a robotic engineer and the owner of Sydnah Automation. Our company specializes in developing automation solutions for fabrication shops. My work primarily involves coding, and I'm currently enrolled in the MITxpro Full Stack coding course as part of my ongoing learning and self-improvement journey. I'm passionate about technology and automation, and I'm excited about the potential this course has to enhance my skills and contribute to our work in robotic integration.</p>
-              </div>
-              
-              </div>
-             </div-->
 
              <div   class="row featurette">
               <div class="col-md-6 order-md-2">
@@ -257,9 +226,9 @@
         <div id= "EyeId" class="row featurette">
           <div class="col-md-7">
             
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span class="text-body-secondary">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-            <p><a class="btn btn-secondary" href="https://github.com/Odedmmn/odedmmn.github.io-Eyes_Exercise/">Check it out &raquo; </a></p>
+            <h2 class="featurette-heading fw-normal lh-1">Eye Exercise <span class="text-body-secondary"></span></h2>
+            <p class="lead">In the completed project, a captivating web page has been crafted, showcasing a dynamic experience with two eyes that seamlessly track your mouse movement. This engaging feature is the result of skillful integration of JavaScript and CSS, combining functionality and manipulating styles.</p>
+            <p><a class="col-md-5 btn btn-bd-primary" href="https://github.com/Odedmmn/odedmmn.github.io-Eyes_Exercise/">GitHub Repo </a> <a class="col-md-5 btn btn-bd-primary" href="https://odedmmn.github.io/odedmmn.github.io-Eyes_Exercise/">See it in action </a></p>
           </div>
           <div class="col-md-5">
             <a href="https://odedmmn.github.io/odedmmn.github.io-Eyes_Exercise/">
@@ -272,9 +241,10 @@
     
         <div id="Pacmanid" class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-            <p><a class="btn btn-secondary" href="https://github.com/Odedmmn/odedmmn.github.io-PacManFactory/">Check it out &raquo; </a></p>
+            <h2 class="featurette-heading fw-normal lh-1">PackMan Factory <span class="text-body-secondary"></span></h2>
+            <p class="lead">In this project, a responsive web page has been developed to feature an interactive PacMan animation triggered by a button click. Employing array methods and advanced DOM manipulation techniques, this implementation seamlessly combines functionality and user engagement.</p>
+            <p><a class="col-md-5 btn btn-bd-primary" href="https://github.com/Odedmmn/odedmmn.github.io-PacManFactory/">GitHub Repo </a> <a class="col-md-5 btn btn-bd-primary" href="https://odedmmn.github.io/odedmmn.github.io-PacManFactory/">See it in action </a></p>
+            
           </div>
           <div class="col-md-5 order-md-1">
             <a href="https://odedmmn.github.io/odedmmn.github.io-PacManFactory/">
@@ -289,9 +259,12 @@
     
         <div id="busid" class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-            <p><a class="btn btn-secondary" href="https://github.com/Odedmmn/odedmmn.github.io-Bus_Tracker/">Check it out &raquo; </a></p>
+            <h2 class="featurette-heading fw-normal lh-1">Bus tracker <span class="text-body-secondary"></span></h2>
+            <p class="lead">This project leverages the Mapbox API to retrieve real-time data from the Boston MBTA buses. The implementation involves fetching live data and subsequently displaying the current locations of the buses on a map.</p>
+            
+            
+            <p><a class="col-md-5 btn btn-bd-primary" href="https://github.com/Odedmmn/odedmmn.github.io-Bus_Tracker/">GitHub Repo </a> <a class="col-md-5 btn btn-bd-primary" href="https://odedmmn.github.io/odedmmn.github.io-Bus_Tracker/">See it in action </a></p>
+            
           </div>
           <div class="col-md-5">
             <a href="https://odedmmn.github.io/odedmmn.github.io-Bus_Tracker/">
@@ -312,15 +285,16 @@
         <p>&copy; 2017–2023 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
     </main>
-    <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>        
+    <script>
+      function scrolldiv(divid) { 
+                      var elem = document.getElementById(divid); 
+                      elem.scrollIntoView(); 
+                  } 
+      </script>
+      
 </body>
-    </html>
-    
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-
-</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>        
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </html>
